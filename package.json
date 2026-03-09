@@ -3,33 +3,12 @@
 	"version": "1.0.0",
 	"description": "Frontend repository",
 	"dependencies": {
-		"protobufjs": "^6.11.4",
-		"semver": "^7.1.2",
-		"chalk": "^4.0.0",
-		"minimist": "^1.2.0",
-		"uglify-js": "^3.7.7",
-		"escodegen": "^1.13.0"
+		"protobufjs": "^6.11.4"
 },
 	"devDependencies": {
-		"protobufjs": "^6.11.4",
-		"semver": "^7.1.2",
-		"chalk": "^4.0.0",
-		"minimist": "^1.2.0",
-		"uglify-js": "^3.7.7",
-		"escodegen": "^1.13.0"
+		"protobufjs-cli": "^1.0.0"
 	},
 	"pnpm": {
-		"onlyBuiltDependencies": [],
-      "packageExtensions": {
-        "protobufjs": {
-          "dependencies": {
-            "semver": "*",
-            "chalk": "*",
-            "minimist": "*",
-            "uglify-js": "*",
-            "escodegen": "*"
-          }
-        }
-      }
+		"onlyBuiltDependencies": []
 	}
 }

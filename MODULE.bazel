@@ -8,13 +8,6 @@ npm.npm_translate_lock(
     name = "npm",
     pnpm_lock = "pnpm-lock.yaml",
     npmrc = ".npmrc",
-    public_hoist_packages = {
-      "semver": [""],
-      "chalk": [""],
-      "minimist": [""],
-      "uglify-js": [""],
-      "escodegen": [""],
-    },
 )
 use_repo(npm, "npm")
 
